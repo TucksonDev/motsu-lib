@@ -1,0 +1,14 @@
+[package]
+name = "motsu"
+description = "Unit Testing for Stylus"
+edition.workspace = true
+keywords.workspace = true
+license.workspace = true
+version = "0.1.0"
+
+[dependencies]
+motsu-proc = { path = "../motsu-proc" }
+stylus-sdk.workspace = true
+const-hex.workspace = true
+once_cell.workspace = true
+tiny-keccak.workspace = true
